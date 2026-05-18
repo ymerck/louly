@@ -148,10 +148,10 @@ i + ' - ' +
       current = i;
       const start = new Date(localStorage.getItem('ily_start'));
       const d = dayDate(start,i);
-      modalTitle.textContent = 'Day ' + i;
+      modalTitle.textContent = 'happy 17 and ' + i + 'days darling';
       modalDate.textContent = d.toDateString();
       const saved = localStorage.getItem('ily-day-' + i) || '';
-      messageView.textContent = saved || 'No message yet.';
+      messageView.textContent = saved || 'i'm sorry, no message yet darling.';
       messageInput.value = saved;
       messageInput.style.display = authorMode ? 'block' : 'none';
       savelu.style.display = authorMode ? 'inline-block' : 'none';
